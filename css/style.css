@@ -476,6 +476,13 @@ body.dark-mode .highlight-card {
     margin-bottom: 1rem;
 }
 
+.highlight-icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 30%;
+   
+}   
 .highlight-card h4 {
     color: var(--primary);
     margin-bottom: 0.5rem;
@@ -574,6 +581,12 @@ body.dark-mode .service-card {
     margin-bottom: 1.5rem;
     display: block;
 }
+.service-icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 30%;
+}
 
 .service-card h4 {
     color: var(--light-text);
@@ -632,7 +645,7 @@ body.dark-mode .project-card {
 }
 
 .project-image {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    
     height: 200px;
     position: relative;
     display: flex;
@@ -643,7 +656,7 @@ body.dark-mode .project-card {
 
 .project-overlay {
     font-size: 4rem;
-    opacity: 0.3;
+    opacity: 0.9;
 }
 
 .project-status {
